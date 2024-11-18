@@ -1,13 +1,12 @@
 ﻿import time
-from concurrent.futures import ThreadPoolExecutor
 
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import config
 from selenium.webdriver.common.by import By
 
-from AutoSubmit.submit import submit_assignment
-from AutoSubmit.ultis.handle_string import is_valid_question_url
+from submit import submit_assignment
+from ultis.handle_string import is_valid_question_url
 
 
 async def process_link(driver, url):

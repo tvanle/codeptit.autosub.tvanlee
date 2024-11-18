@@ -1,8 +1,8 @@
 ﻿import asyncio
 
-from AutoSubmit.config import initialize_driver, LOGIN_URL
-from AutoSubmit.handle_submit import handle
-from AutoSubmit.input import get_user_credentials
+from config import initialize_driver, LOGIN_URL
+from handle_submit import handle
+from input import get_user_credentials
 from auto_login import auto_login
 
 

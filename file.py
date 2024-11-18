@@ -1,7 +1,6 @@
 import os
-from pathlib import Path
 
-from AutoSubmit.ultis.handle_string import get_file_name
+from ultis.handle_string import get_file_name
 
 
 def load_abs_file(url: str):

@@ -2,7 +2,7 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from AutoSubmit.file import load_abs_file
+from file import load_abs_file
 
 async def submit_assignment(driver, url):
     try:
