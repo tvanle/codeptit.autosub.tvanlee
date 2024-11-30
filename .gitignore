@@ -1,0 +1,63 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.log
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+.pylint.d/
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Type hinting
+.typing/
+
+# pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Bandit security linter
+bandit.yml
+
+# Flake8
+.flake8
+
+# dotenv
+.env
+.env.*
