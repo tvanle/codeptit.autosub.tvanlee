@@ -1,9 +1,8 @@
 ﻿import asyncio
 
 from config import initialize_driver, LOGIN_URL
-from handle_submit import handle
+from handle_submit import handle, auto_login
 from input import get_user_credentials
-from auto_login import auto_login
 
 
 async def main():
